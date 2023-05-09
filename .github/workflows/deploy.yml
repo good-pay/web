@@ -27,7 +27,7 @@ jobs:
 
       - name: build
         env:
-          BASE_PATH: '/good-pay/web'
+          BASE_PATH: '/good-pay'
         run: |
           npm run build
           touch build/.nojekyll
